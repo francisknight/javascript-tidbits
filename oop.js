@@ -1,8 +1,8 @@
 //Add a Method to an Object
 let dice = {
+	sides: 6,
 	roll: () => {
-		let side = 6;
-		let randomNumber = Math.floor(Math.random() * side) + 1;
+		let randomNumber = Math.floor(Math.random() * this.sides) + 1;
 		console.log(randomNumber);
 	}
 }
