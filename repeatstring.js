@@ -4,12 +4,12 @@ const itsLit = "🔥";
 let party = {
 	// Version1 REPEAT
 	version1() {
-		return itsLit.repeat(6);
+		return itsLit.repeat(3);
 	},
 
 	version2() {
 		// Version2 FILL
-		return Array(6).fill(itsLit).join('');
+		return Array(3).fill(itsLit).join('');
 	}
 }
 
