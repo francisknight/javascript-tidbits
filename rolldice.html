@@ -1,0 +1,35 @@
+<!doctype html>
+<html class="no-js" lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<div id="placeholder"></div>
+		<button id="button">Roll Dice</button>
+
+		<script>
+			//Add a Method to an Object
+		let dice = {
+		sides: 6,
+		roll: () => {
+		let randomNumber = Math.floor(Math.random() * dice.sides) + 1;
+		return randomNumber;
+		}
+		}
+		function printNumber (number) {
+		let placeholder = document.getElementById("placeholder");
+		placeholder.innerHTML = number;
+		}
+		let button = document.getElementById("button");
+		button.onclick = () => {
+		printNumber(dice.roll());
+		}
+		</script>
+		
+	</body>
+</html>
