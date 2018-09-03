@@ -1,4 +1,4 @@
-// Using ES^ .endsWith() method to check if a string ends with the given target 
+// Using ES6 .endsWith() method to check if a string ends with the given target 
 function confirmEnding (str, ending) {
 	if (str.endsWith(ending)) {
 		return console.log('Yep ☀');
