@@ -23,7 +23,7 @@ apple.describe = function(){
 
 console.log(apple.describe());
 
-// Constructor Pattern -- Method
+// Constructor Pattern -- With Method
 function Fruit(name, color, shape){
 	this.name = name;
 	this.color = color;
