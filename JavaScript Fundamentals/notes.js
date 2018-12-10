@@ -36,3 +36,4 @@ function Fruit(name, color, shape){
 }
 
 let apple = new Fruit('apple', 'red', 'round');
+
