@@ -12,7 +12,7 @@ let person = {
 console.log(person.fullName());
 
 // object Constructor
-var apple = new Object();
+let apple = new Object();
 apple.color = 'red';
 apple.shape = 'round';
 
@@ -28,4 +28,11 @@ function Fruit(name, color, shape){
 	this.name = name;
 	this.color = color;
 	this.shape = shape;
+	
+	this.describe = function(){
+		return 'A ' +this.name+' is the color '
+		+this.color+' and is the shape '+this.shape;
+	}
 }
+
+let apple = new Fruit('apple', 'red', 'round');
