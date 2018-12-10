@@ -23,4 +23,3 @@ apple.describe = function(){
 
 console.log(apple.describe());
 
-
