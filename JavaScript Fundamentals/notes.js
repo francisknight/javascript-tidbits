@@ -39,4 +39,3 @@ let apple = new Fruit('apple', 'red', 'round');
 console.log(apple.describe());
 
 // ES6 module 
-
