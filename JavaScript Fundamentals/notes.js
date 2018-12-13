@@ -79,4 +79,22 @@ var diag = require('lib').diag;
 console.log(square(11)); // 121
 console.log(diag(4, 3)); // 5
 
+// Default exports (one per module)
 
+//------ myFunc.js ------
+export default function () { ... };
+
+//------ main1.js ------
+import myFunc from 'myFunc';
+myFunc();
+
+			    
+// Classes
+//------ MyClass.js ------
+export default class { ... };
+
+//------ main2.js ------
+import MyClass from 'MyClass';
+let inst = new MyClass();
+			    
+			    
