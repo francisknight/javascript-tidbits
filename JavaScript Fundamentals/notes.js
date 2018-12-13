@@ -1,3 +1,4 @@
+// JS OOP
 // Object Literal
 let person = {
 	firstName: 'Francis',
@@ -40,5 +41,7 @@ console.log(apple.describe());
 
 // ES6 module 
 // Modules are use to import files/pices of code into another file
+
+// Named exports (can be more than one)
 
 
