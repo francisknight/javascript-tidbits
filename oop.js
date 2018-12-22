@@ -9,4 +9,3 @@ let dice = {
 
 dice.roll();
 
-
