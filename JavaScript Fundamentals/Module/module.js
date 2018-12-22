@@ -41,5 +41,3 @@ import ShoppingDataType from 'libs/module';
 
 var shopping = new ShoppingDataType;
 console.log(shopping.getShoppingList());
-
-
