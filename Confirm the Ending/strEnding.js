@@ -10,3 +10,4 @@ function confirmEnding (str, ending) {
 let str = 'here comes the sun';
 confirmEnding( str, 'sun'); // Yep ☀️
 confirmEnding( str, 'rain'); // Nah 🌧
+
