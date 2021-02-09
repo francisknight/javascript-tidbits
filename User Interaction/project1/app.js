@@ -30,9 +30,9 @@ console.log(headertitle);
 // let li = document.getElementsByTagName(`li`);
 // console.log(li);
 // li[0].textContent = 'Hello';
-// //Change background of one item
+// //Change background of one li
 // li[1].style.backgroundColor = 'yellow'; 
-// //Change background of all items
+// //Change background of all li
 // for (let i = 0; i < li.length; ++i)
 // {
 //     li[i].style.backgroundColor = `#f4f4f4`;
