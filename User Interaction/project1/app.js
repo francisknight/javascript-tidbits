@@ -5,10 +5,10 @@
 // Selectors 
 
 // Get element by id and modify it //
-let headertitle = document.getElementById('header-title');
-let header = document.getElementById('main-header');
+// let headertitle = document.getElementById('header-title');
+// let header = document.getElementById('main-header');
 
-console.log(headertitle);
+// console.log(headertitle);
 //headertitle.textContent = 'Hello';  // -- doesn't consider styling 
 //headertitle.innerText = 'Goodbye';
 //headertitle.innerHTML = '<h3>Hello</h3>';
@@ -37,3 +37,22 @@ console.log(headertitle);
 // {
 //     li[i].style.backgroundColor = `#f4f4f4`;
 // }
+
+// Query Selector -- One item selecting 
+// let header = document.querySelector(`#main-header`);
+// header.style.borderBottom = `solid 4px #cccc`;
+
+// let input = document.querySelector(`input`);
+// input.placeholder = `Hello`; // only select the first input, text box
+
+// let submit = document.querySelector(`input[type ="submit"]`);
+// submit.value = `SEND`;
+
+// let items = document.querySelector(`.list-group-item`);
+// items.style.color = `red`;
+
+// let lastItem = document.querySelector(`.list-group-item:last-child`);
+// lastItem.style.color = `blue`;
+// let secondItem = document.querySelector(`.list-group-item:nth-child(2)`);
+// secondItem.style.color = `gray`;
+
