@@ -15,13 +15,25 @@ console.log(headertitle);
 //header.style.borderBottom = `solid 3px #000`; //--- modify css
 
 // get element by class name 
-let items = document.getElementsByClassName(`list-group-item`);
-console.log(items);
-items[0].textContent = 'Hello';
+// let items = document.getElementsByClassName(`list-group-item`);
+// console.log(items);
+// items[0].textContent = 'Hello';
 // Change background of one item
-items[1].style.backgroundColor = 'yellow'; 
+// items[1].style.backgroundColor = 'yellow'; 
 // Change background of all items
-for (let i = 0; i < items.length; ++i)
-{
-    items[i].style.backgroundColor = `#f4f4f4`;
-}
+// for (let i = 0; i < items.length; ++i)
+// {
+//     items[i].style.backgroundColor = `#f4f4f4`;
+// }
+
+// // get element by tag name 
+// let li = document.getElementsByTagName(`li`);
+// console.log(li);
+// li[0].textContent = 'Hello';
+// //Change background of one item
+// li[1].style.backgroundColor = 'yellow'; 
+// //Change background of all items
+// for (let i = 0; i < li.length; ++i)
+// {
+//     li[i].style.backgroundColor = `#f4f4f4`;
+// }
