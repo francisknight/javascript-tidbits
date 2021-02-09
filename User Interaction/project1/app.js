@@ -13,3 +13,5 @@ console.log(headertitle);
 //headertitle.innerText = 'Goodbye';
 //headertitle.innerHTML = '<h3>Hello</h3>';
 //header.style.borderBottom = `solid 3px #000`; //--- modify css
+
+// get element by class name 
