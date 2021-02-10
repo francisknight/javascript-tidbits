@@ -56,3 +56,20 @@
 // let secondItem = document.querySelector(`.list-group-item:nth-child(2)`);
 // secondItem.style.color = `gray`;
 
+// querySelectorAll -- select more than one item
+
+// let titles = document.querySelectorAll(`.title`);
+// console.log(titles);
+// titles[0].textContent = `Hello`;
+
+// let odd = document.querySelectorAll(`li:nth-child(odd)`);
+// let even = document.querySelectorAll(`li:nth-child(even)`);
+
+
+// for(let i = 0; i < odd.length; ++i)
+// {
+//     odd[i].style.backgroundColor = `#f4f4f4`;
+//     even[i].style.backgroundColor = `#ccc`;
+
+// }
+
