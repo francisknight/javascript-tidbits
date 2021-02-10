@@ -1,3 +1,6 @@
+/*** Selecting items on the page ***/
+
+
 // Examine the document object
 // console.dir(document);
 
