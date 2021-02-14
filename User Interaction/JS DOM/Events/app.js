@@ -26,6 +26,7 @@
 // button.addEventListener(`click`, buttonClick);
 
 let button = document.getElementById(`button`); 
+let box = document.getElementById(`box`);
 
 function runEvent (e)
 {
@@ -35,3 +36,5 @@ function runEvent (e)
 //button.addEventListener(`click`, runEvent);
 // button.addEventListener(`mouseup`, runEvent);
 // button.addEventListener(`mousedown`, runEvent);
+
+box.addEventListener(`mouseover`, runEvent);
