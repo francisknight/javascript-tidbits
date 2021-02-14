@@ -1,16 +1,31 @@
 // Interactive JS 
 
-let button =document.getElementById(`button`);
+// let button =document.getElementById(`button`);
 
-function buttonClick(e)
+// function buttonClick(e)
+// {
+//     document.getElementById(`header-title`).innerHTML = `Change`;
+//     document.querySelector(`#main`).style.backgroundColor = `#f6b352`;
+
+//     console.log(e.target);
+//     console.log(e.target.id);
+//     console.log(e.target.className);
+//     console.log(e.target.classList);
+//     console.log(e.type);
+
+//     let output = document.querySelector(`#output`);
+//     output.innerHTML = `
+//         <h3> ${e.target.id} </h3>
+//     `;
+
+//     console.log(e.altKey);
+//     console.log(e.ctrlKey);
+//     console.log(e.shiftKey);
+// }
+
+// button.addEventListener(`click`, buttonClick);
+
+function runEvent (e)
 {
-    document.getElementById(`header-title`).innerHTML = `Change`;
-    document.querySelector(`#main`).style.backgroundColor = `#f6b352`;
-
-    console.log(e.target);
-    console.log(e.target.id);
-    console.log(e.target.className);
-    console.log(e.target.classList);
+    console.log(`EVENT TYPE: ${e.type}`);
 }
-
-button.addEventListener(`click`, buttonClick);
