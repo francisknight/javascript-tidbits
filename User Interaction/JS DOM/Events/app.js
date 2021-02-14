@@ -1,10 +1,10 @@
 // Interactive JS 
 
-let button = document.getElementsById(`button`);
+let button =document.getElementById(`button`);
 
 function buttonClick()
 {
-    document.getElementsById(`header-title`).innerHTML = `Change`;
+    document.getElementById(`header-title`).innerHTML = `Change`;
 }
 
 button.addEventListener(`click`, buttonClick);
