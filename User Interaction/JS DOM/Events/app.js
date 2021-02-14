@@ -37,4 +37,7 @@ function runEvent (e)
 // button.addEventListener(`mouseup`, runEvent);
 // button.addEventListener(`mousedown`, runEvent);
 
-box.addEventListener(`mouseover`, runEvent);
+box.addEventListener(`mouseover`, runEvent); // target parent
+box.addEventListener(`mouseEnter`, runEvent); // target child element 
+box.addEventListener(`mouseleave`, runEvent);
+
