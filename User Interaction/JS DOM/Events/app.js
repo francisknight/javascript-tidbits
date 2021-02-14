@@ -33,6 +33,7 @@ let form = document.querySelector(`form`);
 
 function runEvent (e)
 {
+    e.preventDefault();
     console.log(`EVENT TYPE: ${e.type}`);
     console.log(e.target.value);
 
@@ -48,3 +49,4 @@ function runEvent (e)
 // box.addEventListener(`mouseleave`, runEvent);
 
 itemInput.addEventListener(`keydown`, runEvent);
+form.addEventListener(`submit`, runEvent);
