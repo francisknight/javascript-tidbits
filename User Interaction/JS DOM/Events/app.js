@@ -25,19 +25,26 @@
 
 // button.addEventListener(`click`, buttonClick);
 
-let button = document.getElementById(`button`); 
-let box = document.getElementById(`box`);
+// let button = document.getElementById(`button`); 
+// let box = document.getElementById(`box`);
+
+let itemInput = document.querySelector(`input[type="text"]`);
+let form = document.querySelector(`form`);
 
 function runEvent (e)
 {
     console.log(`EVENT TYPE: ${e.type}`);
+    console.log(e.target.value);
+
+    // document.getElementById(`output`).innerHTML = `<h3> ${e.target.value} </h3>`;
 }
 
 //button.addEventListener(`click`, runEvent);
 // button.addEventListener(`mouseup`, runEvent);
 // button.addEventListener(`mousedown`, runEvent);
 
-box.addEventListener(`mouseover`, runEvent); // target parent
-box.addEventListener(`mouseEnter`, runEvent); // target child element 
-box.addEventListener(`mouseleave`, runEvent);
+// box.addEventListener(`mouseover`, runEvent); // target parent
+// box.addEventListener(`mouseEnter`, runEvent); // target child element 
+// box.addEventListener(`mouseleave`, runEvent);
 
+itemInput.addEventListener(`keydown`, runEvent);
