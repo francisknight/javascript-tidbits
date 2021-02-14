@@ -25,7 +25,13 @@
 
 // button.addEventListener(`click`, buttonClick);
 
+let button = document.getElementById(`button`); 
+
 function runEvent (e)
 {
     console.log(`EVENT TYPE: ${e.type}`);
 }
+
+//button.addEventListener(`click`, runEvent);
+// button.addEventListener(`mouseup`, runEvent);
+// button.addEventListener(`mousedown`, runEvent);
